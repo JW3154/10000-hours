@@ -27,3 +27,159 @@
     url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
     url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
 }
+
+body {
+    background-color: #5B2386;
+    text-align: center;
+    color: white;
+}
+
+main {
+    background-image: url(../img/clock.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.title {
+    margin-top: 14.3704vw;
+}
+
+.title-img {
+    margin-top: 70px;
+    height: 112px;
+    max-width: 100%;
+}
+
+.sub {
+    margin-top: 124px; /*124px*/
+}
+
+.sub-title {
+    color: #F5DF4D;
+    font-size: 36px; /*36px*/
+    margin-bottom: 5.7037vw; /*77px*/
+}
+
+.sub-text {
+    background-image: url(../img/quotes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 7.5556vw; /*102px*/
+    line-height: 35px;
+    font-family: 'GmarketSansMedium';
+    font-size: 15px;
+}
+
+.span {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+input {
+    text-align: center;
+    border-radius: 7px;
+    border-style: hidden;
+    font-size: 1.4815vw;
+    width: 16.8889vw;
+    height: 4.2222vw;
+}
+
+.sub2 {
+    font-size: 1.7778vw;
+    font-family: 'GmarketSansMedium';
+}
+
+input::placeholder {
+    color: #BABCBE;
+    font-size: 1.7778vw;
+}
+
+.button1 {
+    color: #5B2386;
+    font-size: 24px;
+    font-weight: bold;
+    border-style: hidden;
+    border-radius: 50px;
+    background-color: #FCEE21;
+    padding: 21px;
+    padding-right: 49px;
+    padding-left: 49px;
+    margin-top: 115px;
+    align-items: flex-end;
+    font-family: 'GmarketSansMedium';
+}
+
+.result {
+    font-size: 24px;
+    margin-top: 147px;
+    font-family: 'GmarketSansMedium';
+}
+
+.span2 {
+    font-weight: bold;
+    font-size: 72px;
+}
+
+.button-open {
+    color: #5B2386;
+    font-size: 24px;
+    font-weight: bold;
+    border-style: hidden;
+    border-radius: 50px;
+    background-color: #FCEE21;
+    padding: 21px;
+    padding-right: 49px;
+    padding-left: 49px;
+    margin-top: 115px;
+    font-family: 'GmarketSansMedium';
+}
+
+.button-close {
+    color: #5B2386;
+    font-size: 24px;
+    font-weight: bold;
+    border-style: hidden;
+    border-radius: 50px;
+    background-color: #FCEE21;
+    padding: 21px;
+    padding-right: 49px;
+    padding-left: 49px;
+    margin-top: 115px;
+    font-family: 'GmarketSansMedium';
+    margin-top: 74px;
+}
+
+.button-share {
+    color: #5B2386;
+    font-size: 24px;
+    font-weight: bold;
+    border-style: hidden;
+    border-radius: 50px;
+    background-color: white;
+    padding: 21px;
+    padding-right: 49px;
+    padding-left: 49px;
+    margin-top: 115px;
+    font-family: 'GmarketSansMedium';
+}
+
+dialog {
+    color: #5B2386;
+    font-family: 'OTEnjoystoriesBA';
+    font-size: 36px;
+    width: 800px;
+    border-radius: 30px;
+}
+
+.text1 {
+    font-size: 96px;
+}
+.text2 {
+    margin-bottom: 29px;
+}
+
+
+
+
+
