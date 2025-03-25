@@ -124,14 +124,14 @@ input::placeholder {
 }
 
 .result {
-    font-size: 14px;
-    margin-top: 147px;
+    font-size: 24px;
+    margin-top: 7.656vw;
     font-family: 'GmarketSansMedium';
 }
 
 .span2 {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 72px;
 }
 
 .button-open {
