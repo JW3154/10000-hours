@@ -28,26 +28,33 @@
     url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
 }
 
+
+
 body {
     background-color: #5B2386;
     text-align: center;
     color: white;
+    padding: auto;
 }
 
 main {
     background-image: url(../img/clock.png);
     background-repeat: no-repeat;
     background-position: top;
+    background-size: auto auto;  /*261px  265px*/
+    max-width: 100%;
+    margin-top: 41px;
 }
 
 .title {
-    margin-top: 14.3704vw;
+    margin-top: 115px;
 }
 
 .title-img {
-    margin-top: 70px;
-    height: 112px;
+    margin-top: 76px;
+    width: 564px;
     max-width: 100%;
+    position: center;
 }
 
 .sub {
@@ -57,22 +64,24 @@ main {
 .sub-title {
     color: #F5DF4D;
     font-size: 36px; /*36px*/
-    margin-bottom: 5.7037vw; /*77px*/
+    font-family: 'OTEnjoystoriesBA';
 }
 
 .sub-text {
     background-image: url(../img/quotes.png);
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 7.5556vw; /*102px*/
-    line-height: 35px;
+    background-size: 493px auto;
+    margin-top: 5.7037vw; /*77px*/
+    margin-bottom: 5.3125vw; /*102px*/
+    line-height: 3.672vh; /*35px*/
     font-family: 'GmarketSansMedium';
-    font-size: 15px;
+    font-size: 15px; /*15px*/
 }
 
 .span {
     font-weight: bold;
-    font-size: x-large;
+    font-size: 25px; /*25px*/
 }
 
 
@@ -81,18 +90,22 @@ input {
     border-radius: 7px;
     border-style: hidden;
     font-size: 1.4815vw;
-    width: 16.8889vw;
-    height: 4.2222vw;
+    width: 11.875vw;  /*228*/
+    height: 5.981vh;  /*57*/
 }
 
 .sub2 {
-    font-size: 1.7778vw;
+    font-size: 24px;
     font-family: 'GmarketSansMedium';
 }
 
 input::placeholder {
     color: #BABCBE;
     font-size: 1.7778vw;
+}
+
+.button {
+    display: inline-block;
 }
 
 .button1 {
@@ -111,14 +124,14 @@ input::placeholder {
 }
 
 .result {
-    font-size: 24px;
+    font-size: 14px;
     margin-top: 147px;
     font-family: 'GmarketSansMedium';
 }
 
 .span2 {
     font-weight: bold;
-    font-size: 72px;
+    font-size: 24px;
 }
 
 .button-open {
@@ -178,8 +191,3 @@ dialog {
 .text2 {
     margin-bottom: 29px;
 }
-
-
-
-
-
