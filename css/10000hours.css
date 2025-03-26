@@ -108,19 +108,25 @@ input::placeholder {
     display: inline-block;
 }
 
+.click-img {
+    width: 64px;
+    height: 72px;
+}
+
 .button1 {
     color: #5B2386;
-    font-size: 24px;
+    font-size: 24px; /*24px*/
     font-weight: bold;
     border-style: hidden;
     border-radius: 50px;
     background-color: #FCEE21;
-    padding: 21px;
-    padding-right: 49px;
-    padding-left: 49px;
+    padding: 1.093vw;  /*21px*/
+    padding-right: 2vw;  /*49px*/
+    padding-left: 2vw;   /*49px*/
     margin-top: 115px;
     align-items: flex-end;
     font-family: 'GmarketSansMedium';
+    max-width: 565px;
 }
 
 .result {
@@ -134,23 +140,27 @@ input::placeholder {
     font-size: 72px;
 }
 
+.modal-btn {
+    display: center;
+}
+
 .button-open {
     color: #5B2386;
-    font-size: 24px;
+    font-size: 24px; /*24px*/
     font-weight: bold;
     border-style: hidden;
     border-radius: 50px;
     background-color: #FCEE21;
-    padding: 21px;
-    padding-right: 49px;
-    padding-left: 49px;
+    padding: 1.093vw;  /*21px*/
+    padding-right: 2.552vw;  /*49px*/
+    padding-left: 2.552vw;   /*49px*/
     margin-top: 115px;
     font-family: 'GmarketSansMedium';
 }
 
 .button-close {
     color: #5B2386;
-    font-size: 24px;
+    font-size: 1.25vw; /*24px*/
     font-weight: bold;
     border-style: hidden;
     border-radius: 50px;
@@ -160,20 +170,18 @@ input::placeholder {
     padding-left: 49px;
     margin-top: 115px;
     font-family: 'GmarketSansMedium';
-    margin-top: 74px;
 }
 
 .button-share {
     color: #5B2386;
-    font-size: 24px;
+    font-size: 24px; /*24px*/
     font-weight: bold;
     border-style: hidden;
     border-radius: 50px;
     background-color: white;
-    padding: 21px;
-    padding-right: 49px;
-    padding-left: 49px;
-    margin-top: 115px;
+    padding: 1.093vw;  /*21px*/
+    padding-right: 2.552vw;  /*49px*/
+    padding-left: 2.552vw;   /*49px*/
     font-family: 'GmarketSansMedium';
 }
 
@@ -190,4 +198,12 @@ dialog {
 }
 .text2 {
     margin-bottom: 29px;
+}
+
+.logo {
+    margin-top: 130px;
+}
+
+footer {
+    font-size: 12px;
 }
