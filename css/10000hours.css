@@ -41,13 +41,8 @@ main {
     background-image: url(../img/clock.png);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: auto auto;  /*261px  265px*/
     max-width: 100%;
     margin-top: 41px;
-}
-
-.title {
-    margin-top: 115px;
 }
 
 .title-img {
@@ -67,44 +62,46 @@ main {
     font-family: 'OTEnjoystoriesBA';
 }
 
-.sub-text {
+.sub-title2 {
     background-image: url(../img/quotes.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 493px auto;
-    margin-top: 5.7037vw; /*77px*/
-    margin-bottom: 5.3125vw; /*102px*/
-    line-height: 3.672vh; /*35px*/
+    margin-top: 77px; /*77px*/
+    line-height: 35px; /*35px*/
     font-family: 'GmarketSansMedium';
     font-size: 15px; /*15px*/
 }
 
-.span {
+.sub-title2 span {
     font-weight: bold;
     font-size: 25px; /*25px*/
 }
 
-
-input {
-    text-align: center;
-    border-radius: 7px;
-    border-style: hidden;
-    font-size: 1.4815vw;
-    width: 11.875vw;  /*228*/
-    height: 5.981vh;  /*57*/
-}
-
-.sub2 {
+.input-time {
+    margin-top: 102px;
     font-size: 24px;
     font-family: 'GmarketSansMedium';
 }
 
-input::placeholder {
-    color: #BABCBE;
-    font-size: 1.7778vw;
+.input2 {
+    margin-top: 27px;
 }
 
-.button {
+.input-time input {
+    text-align: center;
+    border-radius: 7px;
+    border-style: hidden;
+    width: 228px;  /*228*/
+    height: 57px;  /*57*/
+}
+
+input::placeholder {
+    color: #BABCBE;
+    font-size: 24px;
+}
+
+.time-btn {
     display: inline-block;
 }
 
@@ -113,63 +110,33 @@ input::placeholder {
     height: 72px;
 }
 
-.button1 {
+.button-calculate, .button-open, .button-close {
     color: #5B2386;
     font-size: 24px; /*24px*/
     font-weight: bold;
     border-style: hidden;
     border-radius: 50px;
     background-color: #FCEE21;
-    padding: 1.093vw;  /*21px*/
-    padding-right: 2vw;  /*49px*/
-    padding-left: 2vw;   /*49px*/
+    padding: 21px;  /*21px*/
+    padding-right: 49px;  /*49px*/
+    padding-left: 49px;   /*49px*/
     margin-top: 115px;
-    align-items: flex-end;
     font-family: 'GmarketSansMedium';
-    max-width: 565px;
 }
 
 .result {
     font-size: 24px;
-    margin-top: 7.656vw;
+    margin-top: 147px;
     font-family: 'GmarketSansMedium';
 }
 
-.span2 {
+.span2, .span3 {
     font-weight: bold;
     font-size: 72px;
 }
 
 .modal-btn {
     display: center;
-}
-
-.button-open {
-    color: #5B2386;
-    font-size: 24px; /*24px*/
-    font-weight: bold;
-    border-style: hidden;
-    border-radius: 50px;
-    background-color: #FCEE21;
-    padding: 1.093vw;  /*21px*/
-    padding-right: 2.552vw;  /*49px*/
-    padding-left: 2.552vw;   /*49px*/
-    margin-top: 115px;
-    font-family: 'GmarketSansMedium';
-}
-
-.button-close {
-    color: #5B2386;
-    font-size: 1.25vw; /*24px*/
-    font-weight: bold;
-    border-style: hidden;
-    border-radius: 50px;
-    background-color: #FCEE21;
-    padding: 21px;
-    padding-right: 49px;
-    padding-left: 49px;
-    margin-top: 115px;
-    font-family: 'GmarketSansMedium';
 }
 
 .button-share {
@@ -179,9 +146,9 @@ input::placeholder {
     border-style: hidden;
     border-radius: 50px;
     background-color: white;
-    padding: 1.093vw;  /*21px*/
-    padding-right: 2.552vw;  /*49px*/
-    padding-left: 2.552vw;   /*49px*/
+    padding: 21px;  /*21px*/
+    padding-right: 49px;  /*49px*/
+    padding-left: 49px;   /*49px*/
     font-family: 'GmarketSansMedium';
 }
 
@@ -206,4 +173,149 @@ dialog {
 
 footer {
     font-size: 12px;
+}
+
+footer p {
+    margin-bottom: 50px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    main {
+        max-width: 100%;
+        background-size: 126px 125px;
+    }
+
+    .title-img {
+        width: 267px;
+        height: 53px;
+        margin-top: 36px;
+    }
+
+    .sub {
+        margin-top: 69px;
+    }
+
+    .sub-title {
+        font-size: 22px;
+    }
+
+    .sub-title2 {
+        font-size: 14px;
+        background: url(../img/quotes.png) no-repeat center / contain;
+        background-size: 330px;
+    }
+
+    .span {
+        font-size: 14px;
+    }
+
+    .input-time {
+        margin-top: 66px;
+        font-size: 14px;
+    }
+
+    .input2 {
+        margin-top: 0;
+    }
+
+    .input-time > span {
+        display: block;
+        margin-top: 19px;
+    }
+
+    .input-time input {
+        text-align: center;
+        border-radius: 7px;
+        border-style: hidden;
+        width: 156px;  
+        height: 37px;  
+    }
+
+    input::placeholder {
+        color: #BABCBE;
+        font-size: 14px;
+    }
+
+    .time-btn {
+        margin-top: 49px;
+    }
+
+    .button-calculate, .button-close {
+        font-size: 14px;
+        border-radius: 13px;
+        width: 241px;
+        height: 68px;
+        padding: 10px; 
+        padding-right: 49px;
+        padding-left: 49px;
+        margin: 0;
+    }
+
+    .click-img {
+        width: 43px;
+        height: 48px;
+    }
+
+    .result {
+        font-size: 14px;
+        margin-top: 64px;
+    }
+
+    .span2, .span3 {
+        font-size: 24px;
+    }
+
+    .modal-btn {
+        margin-top: 55px;
+    }
+
+    .button-open {
+        font-size: 14px;
+        width: 186px;
+        height: 40px;
+        padding: 0;
+        margin-top: 0px;
+    }
+
+    .button-share {
+        font-size: 14px;
+        width: 92px;
+        height: 40px;
+        padding: 0;
+        margin-top: 0px;
+    }
+
+    footer p {
+        font-size: 9px;
+        color: #FFFFFF;
+        line-height: 15px;
+        opacity: 0.5;
+        margin-bottom: 25px;
+    }
+
+    .logo {
+        margin-top: 83px;
+        width: 91px;
+        height: 18px;
+    }
+
+    dialog {
+        color: #5B2386;
+        font-family: 'OTEnjoystoriesBA';
+        font-size: 36px;
+        width: 330px;
+        border-radius: 30px;
+    }
+
+    dialog img {
+        width: 241px;
+        height: 188px;
+    }
+
+    .heart {
+        display: none;
+    }
 }
